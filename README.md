@@ -1,10 +1,3 @@
-# evmbench
-
-[![Apache-2.0 License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](/LICENSE)
-[![Actions Status](https://github.com/paradigmxyz/evmbench/workflows/CI/badge.svg)](https://github.com/paradigmxyz/evmbench/actions)
-
-**evmbench is a benchmark and agent harness for finding and exploiting smart contract bugs.**
-
 <p align="center">
     <picture align="center">
         <img alt="evmbench cover" src="assets/cover-dark.png">
@@ -12,6 +5,8 @@
 </p>
 
 <a href="#how-it-works"><b><u>How it works</u></b></a> | <a href="#security"><b><u>Security</u></b></a> | <a href="#key-services"><b><u>Key services</u></b></a> | <a href="#repo-layout"><b><u>Repo layout</u></b></a> | <a href="#quickstart-local-dev"><b><u>Quickstart (local dev)</u></b></a>
+
+**evmbench is a benchmark and agent harness for finding and exploiting smart contract bugs.**
 
 This repository contains a companion interface to the `evmbench` detect evaluation ([code](https://github.com/openai/frontier-evals)).
 
@@ -149,3 +144,8 @@ Open:
 
 - `http://127.0.0.1:3000` (frontend)
 - `http://127.0.0.1:1337/v1/integration/frontend` (backend config endpoint)
+
+## Acknowledgments
+Thank you to many folks on the OtterSec team for support, particularly with building the frontend: es3n1n, jktrn, TrixterTheTux, sahuang
+
+[![Apache-2.0 License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](/LICENSE)
