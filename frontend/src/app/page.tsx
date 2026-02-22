@@ -230,6 +230,12 @@ export default function Page() {
                       <SelectItem value="codex-gpt-5.1-codex-max">
                         codex-gpt-5.1-codex-max
                       </SelectItem>
+                      <SelectItem value="codex-deepseek-chat">
+                        codex-deepseek-chat
+                      </SelectItem>
+                      <SelectItem value="codex-qwen-plus">
+                        codex-qwen-plus
+                      </SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
